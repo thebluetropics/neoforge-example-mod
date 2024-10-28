@@ -9,6 +9,9 @@ displayName="Example Mod"
 authors="thebluetropics"
 description="An Example Mod"
 
+[[mixins]]
+config="examplemod.mixins.json"
+
 [[dependencies.examplemod]]
     modId="neoforge"
     type="required"
